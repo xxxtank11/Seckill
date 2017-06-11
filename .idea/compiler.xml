@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Seckill" />
+        <module name="Seckill (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Seckill" target="1.5" />
+      <module name="Seckill (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

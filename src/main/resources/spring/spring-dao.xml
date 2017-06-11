@@ -54,9 +54,9 @@
         <property name="basePackage" value="com.ws.dao"/>
     </bean>
 
-    <!--redisDao-->
-    <!--<bean id="redisDao" class="com.ws.dao.cache.RedisDao">-->
-        <!--<constructor-arg index="0" value="localhost"/>-->
-        <!--<constructor-arg index="1" value="6379"/>-->
-    <!--</bean>-->
+    <!--redisDao,构造注入-->
+    <bean id="redisDao" class="com.ws.dao.cache.RedisDao">
+        <constructor-arg index="0" value="localhost"/>
+        <constructor-arg index="1" value="6379"/>
+    </bean>
 </beans>
